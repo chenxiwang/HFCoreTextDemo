@@ -25,6 +25,9 @@ typedef NS_ENUM(NSInteger, HFDrawType){
 };
 @interface HFCoreTextView : UIView
 
+
+
+
 @property (nonatomic, copy) NSString *text;
 @property (nonatomic, strong) UIFont *font;
 
